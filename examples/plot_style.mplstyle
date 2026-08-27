@@ -1,0 +1,9 @@
+# plot_style.mplstyle
+figure.figsize : 6, 4
+figure.dpi     : 150
+font.size      : 16
+axes.titlesize : 16
+legend.fontsize : 12
+savefig.dpi    : 300
+patch.facecolor : 'orange'
+legend.frameon : True
