@@ -12,6 +12,8 @@ In addition to spectrum generation, the package provides tools for unfolding eig
 
 The package requires Python and standard scientific Python dependencies, including NumPy, SciPy, and Matplotlib.
 
+The package documentation is supplemented by a technical note, available on the arXiv at [nlin.CD/2608.27224](https://arxiv.org/abs/2608.27224). The note provides the necessary mathematical background, establishes the conventions and notation used throughout the package, and describes the numerical experiments implemented in the example notebooks.
+
 ## Features
 The package currently implements:
 * Spectrum generation for Gaussian beta ensembles (GBE) at general $\\beta$
@@ -65,3 +67,8 @@ The repository contains the following notebooks:
 * `ex3_spectral_form_factor`: numerical analysis of the spectral form factor
 
 These notebooks are intended as practical examples of numerical studies that can be performed with the package. They can also serve as starting points for experimenting with other ensemble parameters, matrix sizes, and spectral observables.
+
+## Citation
+If you find this package useful in your research, please consider citing the accompanying technical note on the arXiv and the software release on Zenodo:
+* Exploring continuous beta-ensembles: A Python implementation for random matrix spectral statistics /\[[arXiv:nlin.CD/2608.27224](https://arxiv.org/abs/2608.27224)\]
+* beta_ensembles: A Python package for continuous beta-ensembles \[[DOI:10.5281/zenodo.22127517](https://doi.org/10.5281/zenodo.22127517)\]
