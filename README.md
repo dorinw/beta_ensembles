@@ -14,6 +14,18 @@ The package requires Python and standard scientific Python dependencies, includi
 
 The package documentation is supplemented by a technical note, available on the arXiv at [nlin.CD/2608.27224](https://arxiv.org/abs/2608.27224). The note provides the necessary mathematical background, establishes the conventions and notation used throughout the package, and describes the numerical experiments implemented in the example notebooks.
 
+## Installation
+
+The package is available on PyPI and can be installed with:
+```bash
+pip install beta-ensembles
+```
+
+Alternatively, the latest version can be installed directly from the GitHub repository:
+```bash
+pip install git+https://github.com/dorinw/beta_ensembles.git
+```
+
 ## Features
 The package currently implements:
 * Spectrum generation for Gaussian beta ensembles (GBE) at general $\\beta$
