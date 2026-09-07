@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "beta-ensembles"
+version = "1.0.0"
+description = "A Python package for numerical work with continuous beta-ensembles and random matrix spectral statistics."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "CC0-1.0"
+license-files = ["LICENSE.txt"]
+
+authors = [
+    {name = "Dorin Weissman"}
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "tqdm",
+]
+
+[project.urls]
+Repository = "https://github.com/dorinw/beta_ensembles"
+Documentation = "https://arxiv.org/abs/2608.27224"
+
+[tool.setuptools.packages.find]
+where = ["src"]
